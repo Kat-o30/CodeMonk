@@ -1,0 +1,113 @@
+// import React from "react";
+// import { motion } from "framer-motion";
+// import Image1 from "../../../Images/Rectangle 1.png"
+// import Image2 from "../../../Images/Rectangle 2.png"
+// import Image3 from "../../../Images/Rectangle 3.png"
+// import Image4 from "../../../Images/Rectangle 4.png"
+// import Image5 from "../../../Images/Rectangle 5.png"
+// import Image6 from "../../../Images/Rectangle 6.png"
+// import Image7 from "../../../Images/Rectangle 7.png"
+// import Image8 from "../../../Images/Rectangle 8.png"
+// import "./Services.css"
+
+
+// const Service = () => {
+//   return (
+//     <div className="box" id="Services">
+
+//       {/* 1 */}
+
+//       <motion.section
+//         className="service"
+//         initial={{ opacity: 0, x: 0, y: 0 }}
+//         animate={{ opacity: 1, x: 150, y: 0 }} // Set opacity to 1 to make the image visible
+//         // style={{ backgroundImage: `url(${Image1})`, backgroundSize: 'cover', width: '100px', height: '100px' }}  
+//         transition={{ duration: 0.5 }}
+
+//       >
+//         <button><div><img src={Image1} alt="" width="530px" height="250px" /></div></button>
+//       </motion.section>
+
+
+//       {/* 2 */}
+
+//       <motion.section
+//         className="service"
+//         initial={{ opacity: 0, x: 0, y: 0 }}
+//         animate={{ opacity: 1, x: 730, y: -450 }}
+//       >
+//         <button><img src={Image2} alt="" width="370px" height="590px" /></button>
+
+//       </motion.section>
+
+//       {/* 3 */}
+//       <motion.section
+//         className="service"
+//         initial={{ opacity: 0, x: 0, y: 0 }}
+//         animate={{ opacity: 1, x: 250, y: 120 }}
+//       >
+//         <img src={Image3} alt="" width={100} />
+//       </motion.section>
+
+//       {/* 4 */}
+
+//       <motion.section
+//         className="service"
+//         initial={{ opacity: 0, x: 0, y: 0 }}
+//         animate={{ opacity: 1, x: -170, y: -650 }}
+//       >
+//         <button><img src={Image4} alt="" width="330px" height="450px" /></button>
+//       </motion.section>
+
+//       {/* 5 */}
+
+//       <motion.section
+//         className="service"
+//         initial={{ opacity: 0, x: 0, y: 0 }}
+//         animate={{ opacity: 1, x: 0, y: 0 }}
+//       // transition={{duration: 1, ease: [0.645, 0.045, 0.355]}}
+//       >
+//         <button><img src={Image5} alt="" width={100} /></button>
+//       </motion.section>
+
+
+//       {/* 6 */}
+
+//       <motion.section
+//         className="service"
+//         initial={{ opacity: 0, x: 0, y: 0 }}
+//         animate={{ opacity: 1, x: 0, y: 0 }}
+//       // transition={{duration: 1, ease: [0.645, 0.045, 0.355]}}
+//       >
+//         <img src={Image6} alt="" width={100} />
+//       </motion.section>
+
+
+//       {/* 7 */}
+
+//       <motion.section
+//         className="service"
+//         initial={{ opacity: 0, x: 0, y: 0 }}
+//         animate={{ opacity: 1, x: 0, y: 0 }}
+//       // transition={{duration: 1, ease: [0.645, 0.045, 0.355]}}
+//       >
+//         <img src={Image7} alt="" width={100} />
+//       </motion.section>
+
+
+//       {/* 8 */}
+
+//       <motion.section
+//         className="service"
+//         initial={{ opacity: 0, x: 0, y: 0 }}
+//         animate={{ opacity: 1, x: 0, y: 0 }}
+//       // transition={{duration: 1, ease: [0.645, 0.045, 0.355]}}
+//       >
+//         <img src={Image8} alt="" width={100} />
+//       </motion.section>
+
+//     </div>
+//   )
+// }
+
+// export default Service;

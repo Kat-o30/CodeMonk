@@ -1,0 +1,79 @@
+// import React, { useState, useRef } from 'react'
+// import './Header.css'
+// import { Autoplay, Pagination, Navigation } from 'swiper/modules'
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import 'swiper/css/pagination';
+// import 'swiper/css';
+// import profile1 from "../../../Images/ram.png";
+// import profile2 from "../../../Images/GULMARG.png";
+// import profile3 from "../../../Images/Coorg.jpg";
+// import profile4 from "../../../Images/laksha.png";
+
+
+// const Intro = () => {  
+
+//   const [currentColor, setCurrentColor] = useState(0);
+//   const swiperRef = useRef(null);
+
+//   const clients = [
+//     {
+//       img: profile1,
+
+//     },
+//     {
+//       img: profile2,
+
+//     },
+//     {
+//       img: profile3,
+
+//     },
+//     {
+//       img: profile4,
+
+//     },
+
+//   ];
+
+//   const handleSlideChange = (swiper) => {
+//     setCurrentColor(swiper.realIndex);
+//   };
+
+//   return (
+//     <div className="intro" style={{ background: clients[currentColor].bgColor }}>
+//       <Swiper
+//         ref={swiperRef}
+//         onSlideChange={handleSlideChange}
+//         slidesPerView={1}
+//         // pagination={{ clickable: true }}
+//         loop={true}
+//         autoplay={{
+//           delay: 2500,
+//           disableOnInteraction: false,
+//         }}
+//         navigation={true}
+//         modules={[Autoplay, Pagination, Navigation]}
+//       >
+//         {clients.map((client, index) => {
+//           return (
+//             <SwiperSlide key={index}>
+//               <div className="background_img">
+//                 <img
+//                   src={client.img}
+//                   alt=""
+//                   style={{
+//                     width: '150vh',
+//                     height: '60vh',
+//                     boxShadow: "0 4px 8px rgba(155, 76, 76, 0.1)" // Add this line for box shadow effect
+//                   }}
+//                 />
+//               </div>
+//             </SwiperSlide>
+//           )
+//         })}
+//       </Swiper>
+//     </div>
+//   );
+// };
+
+// export default Intro

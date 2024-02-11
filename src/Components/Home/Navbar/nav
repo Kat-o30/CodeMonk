@@ -1,0 +1,50 @@
+.n-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.n-left {
+  display: flex;
+  align-items: center;
+}
+
+.n-name {
+  margin-right: 20px;
+}
+
+.n-right {
+  display: flex;
+  position: relative;
+}
+
+.n-toggle-box {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#image2 {
+  position: fixed;
+  right: 70px;
+}
+
+.n-list {
+  display: none;
+  cursor: pointer;
+}
+
+.n-list.visible {
+  display: block;
+}
+
+.n-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.n-list li {
+  margin-right: 20px;
+}

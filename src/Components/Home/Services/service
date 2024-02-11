@@ -1,0 +1,206 @@
+// import React, { useContext } from 'react'
+// import './Services.css'
+// import Card from '../Card/Card';
+// // import Resume from '../resume.pdf';
+// import { motion } from 'framer-motion';
+// import Package1 from "../../../Images/Andaman.png"
+// import Package2 from "../../../Images/kashmir.png"
+// import Package3 from "../../../Images/kerala.png"
+// import Package4 from "../../../Images/spiti-himachal-pradesh-india-himalayas.png"
+// import Package5 from "../../../Images/sikim.png"
+// import Package6 from "../../../Images/rajasthan.png"
+// import Package7 from "../../../Images/Jaipur1.png"
+// import Package8 from "../../../Images/amritsar.png"
+// import Package9 from "../../../Images/north.png"
+// import Package10 from "../../../Images/Kolkata-1.png"
+
+
+// const Services = () => {
+//   const transition = {
+//     type: 'spring',
+//     duration: 5,
+//   };
+
+
+//   return (
+//     <div className="services" id='Services'>
+//       {/* left side */}
+//       {/* <div className="awesome">
+//         <span>My awesome</span>
+//         <span>Services</span>                
+//         <spane>
+//         As a frontend developer, I offer a range of services to create a polished and user-friendly
+//           <br />
+//           portfolio website that effectively showcases your work and skills.
+//         </spane>
+//         <a href={Resume} download>
+//           <button className="button s-button">Download CV</button>
+//         </a>
+//         <div className="blur s-blurl" style={{ background: "#ABF1FF94" }}></div>
+//       </div> */}
+
+//       <div>
+//         <h2 className="title">From meticulously planned itineraries to handpicked accommodations and exclusive experiences, we go above and beyond to tailor each journey to your unique preferences and interests. So, why settle for ordinary when you can embark on extraordinary adventures with PILGRIM
+
+
+//           Join us on the journey of a lifetime and let's explore the world together!"</h2>
+//       </div>
+
+//       {/* right side */}
+//       <div className="cards">
+
+//         <motion.div
+
+//           initial={{ left: '15rem' }}
+//           whileInView={{ left: '0rem' }}
+//           transition={transition}
+
+//         >
+//           <Card
+//             // emoji={HeartEmoji}
+//             // heading={'Design'}
+//             // detail={'Figma, photoshop , adobe , adobe xd'}
+//             backgroundImage={Package1}
+//           />
+//         </motion.div>
+
+//         {/* 2nd card */}
+//         <motion.div
+
+//           initial={{ left: '15rem' }}
+//           whileInView={{ left: '16rem', top: "0rem" }}
+//           transition={transition}
+
+//         >
+//           <Card
+//             // emoji={Glasses}
+//             // heading={'Developer'}
+//             // detail={'html, css, javascript, react'}
+//             backgroundImage={Package2}
+//           />
+//         </motion.div>
+
+//         {/* 3rd card */}
+//         <motion.div
+
+//           initial={{ left: '15rem' }}
+//           whileInView={{ left: '32rem' }}
+//           transition={transition}
+
+//         >
+//           <Card
+//             // emoji={Humble}
+//             // heading={'UI/UX'}
+//             // detail={'I will incorporate interactive elements and intuitive user interfaces to engage visitors and make navigation easy.'}
+//             backgroundImage={Package3}
+//           />
+//         </motion.div>
+
+//         {/* 4th card */}
+//         <motion.div
+
+//           initial={{ left: '15rem' }}
+//           whileInView={{ left: '48rem' }}
+//           transition={transition}
+
+//         >
+//           <Card
+//             // emoji={Humble}
+//             // heading={'UI/UX'}
+//             // detail={'I will incorporate interactive elements and intuitive user interfaces to engage visitors and make navigation easy.'}
+//             backgroundImage={Package4}
+//           />
+//         </motion.div>
+
+//         {/* 5th card */}
+//         <motion.div
+
+//           initial={{ left: '5rem' }}
+//           whileInView={{ left: '65rem' }}
+//           transition={transition}
+
+//         >
+//           <Card
+//             // emoji={Humble}
+//             // heading={'UI/UX'}
+//             backgroundImage={Package5}
+
+//           />
+//         </motion.div>
+
+//         {/* 6th card */}
+//         <motion.div
+
+//           initial={{ bottom: '15rem' }}
+//           whileInView={{ left: '0rem', top: "19rem" }}
+//           transition={transition}
+
+//         >
+//           <Card
+//             // emoji={Humble}
+//             // heading={'UI/UX'}
+//             // detail={'I will incorporate interactive elements and intuitive user interfaces to engage visitors and make navigation easy.'}
+//             backgroundImage={Package6}
+//           />
+//         </motion.div>
+
+//         {/* 7th card */}
+//         <motion.div
+
+//           initial={{ top: '-10rem' }}
+//           whileInView={{ left: '16rem', top: "19rem" }}
+//           transition={transition}
+
+//         >
+//           <Card
+//             backgroundImage={Package7}
+//           />
+//         </motion.div>
+
+//         {/* 8th card */}
+//         <motion.div
+
+//           initial={{ bottom: '15rem' }}
+//           whileInView={{ left: '32rem', top: "19rem" }}
+//           transition={transition}
+
+//         >
+//           {/* style={{ top: "19rem", left: "12rem" }} */}
+//           <Card
+//             backgroundImage={Package8}
+//           />
+//         </motion.div>
+
+//         {/* 9th card */}
+//         <motion.div
+
+//           initial={{ top: '-10rem' }}
+//           whileInView={{ left: '48rem', top: "19rem" }}
+//           transition={transition}
+
+//         >
+//           <Card
+//             backgroundImage={Package9}
+//           />
+//         </motion.div>
+
+
+//         {/* 10th card */}
+//         <motion.div
+
+//           initial={{ bottom: '15rem' }}
+//           whileInView={{ left: '65rem', top: "19rem" }}
+//           transition={transition}
+
+//         >
+//           <Card
+//             backgroundImage={Package10}
+//           />
+//         </motion.div>
+//         <div className="blur s-blur2" style={{ background: "var(--purple)" }}></div>
+//       </div>
+//     </div>
+//   )
+// }
+
+// export default Services

@@ -1,0 +1,26 @@
+.box{
+  margin-top: 60vh;
+}
+
+.service{
+  background: #ffffff;
+}
+.service:nth-child(1) {
+    width: 626px;
+    height: 450px;
+  }
+  
+  .service:nth-child(2) {
+    width: 430px;
+    height: 450px;
+  }
+
+  .image-wrapper {
+    background-color: white;
+    display: inline-block; /* Ensure the background color only covers the image */
+  }
+
+  button {
+    background-color: transparent;
+    border: none; /* Optional: Remove the button border */
+  }
